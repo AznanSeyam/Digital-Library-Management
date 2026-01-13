@@ -15,14 +15,7 @@ public class IssuedBook {
         this.issueDate = issueDate;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public int getBookId() {
-        return bookId;
-    }
-
+   
     public String getIssuedTo() {
         return issuedTo;
     }
