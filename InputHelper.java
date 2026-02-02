@@ -7,7 +7,6 @@ public class InputHelper {
 
     public static int getInt() {
         while (!scanner.hasNextInt()) {
-            scanner.next();
             System.out.print("Invalid input, enter a number: ");
         }
         return scanner.nextInt();
