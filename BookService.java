@@ -12,7 +12,6 @@ public class BookService {
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setString(1, title);
             stmt.setString(2, author);
-            stmt.executeUpdate();
             System.out.println("Book added successfully.");
         } catch (SQLException e) {
             System.out.println("Error adding book: " + e.getMessage());
