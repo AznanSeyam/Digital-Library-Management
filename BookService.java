@@ -10,7 +10,6 @@ public class BookService {
         String sql = "INSERT INTO books (title, author, available) VALUES (?, ?, 1)";
         try (Connection conn = Database.connect();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
-            stmt.setString(1, title);
             stmt.setString(2, author);
             System.out.println("Book added successfully.");
         } catch (SQLException e) {
