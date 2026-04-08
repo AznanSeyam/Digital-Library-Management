@@ -4,7 +4,6 @@ CREATE TABLE books (
     author TEXT NOT NULL,
     available BOOLEAN DEFAULT 1
 );
-
 CREATE TABLE issued_books (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     book_id INTEGER NOT NULL,
