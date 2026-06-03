@@ -11,7 +11,7 @@ public class IssuedBook {
     public IssuedBook(int id, int bookId, String issuedTo, Timestamp issueDate) {
         this.id = id;
         this.bookId = bookId;
-        this.issuedTo = issuedTo;
+        this.issuedTo = issuedTo
         this.issueDate = issueDate;
     }
 
