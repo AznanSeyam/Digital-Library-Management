@@ -12,7 +12,7 @@ public class IssuedBook {
         this.id = id;
         this.bookId = bookId;
         this.issuedTo = issuedTo
-        this.issueDate = issueDate;
+        this.issueDate = issueDate
     }
 
    
