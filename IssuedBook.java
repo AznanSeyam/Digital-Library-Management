@@ -18,8 +18,7 @@ public class IssuedBook {
    
     public String getIssuedTo() {
         return issuedTo;
-    }
-
+    
     public Timestamp getIssueDate() {
         return issueDate;
     }
